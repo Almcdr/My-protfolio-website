@@ -5,13 +5,16 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 .desh{
     color: orange;
 }
 .kulon{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -39,5 +42,29 @@ section{
     background-image: url(images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+.experiences-erea{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    padding-left: 20px;
+    
+    box-shadow: 10px 10px 40px gray;
+}
+    
+#wev-content{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+#wev-content-host{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, green);
+    border-image-slice: 1;
 }
 
