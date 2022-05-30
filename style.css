@@ -67,4 +67,7 @@ h2{
     border-image: linear-gradient(blue, green);
     border-image-slice: 1;
 }
+footer{
+    text-align: center;
+}
 
